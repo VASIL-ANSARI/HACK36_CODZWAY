@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Something">
-        <activity android:name=".Activities.MailVerification"></activity>
+        <activity android:name=".Activities.TTT"></activity>
+        <activity android:name=".Activities.Cart" />
+        <activity android:name=".Activities.Games" />
+        <activity android:name=".Activities.MailVerification" />
         <activity android:name=".Activities.HomeActivity" />
         <activity android:name=".Activities.MainActivity">
             <intent-filter>

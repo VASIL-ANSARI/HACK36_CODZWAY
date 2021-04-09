@@ -8,7 +8,6 @@ import android.os.Looper;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
 import android.text.style.ForegroundColorSpan;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
@@ -44,7 +43,7 @@ public class MailVerification extends AppCompatActivity {
         //Find and Register Listeners for the TextViews
         TextView resend = findViewById(R.id.resend_mail);
         TextView registerAgain = findViewById(R.id.register_again);
-        ImageView imageView = findViewById(R.id.imageView);
+       // ImageView imageView = findViewById(R.id.imageView);
         TextView TextDescription =findViewById(R.id.text_description);
         userMail= UserDetails.getMail();
 

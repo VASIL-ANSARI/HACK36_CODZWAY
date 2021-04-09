@@ -8,14 +8,13 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.tlabs.something.R;
 import com.tlabs.something.Utils.Methods;
 
-public class HomeActivity extends AppCompatActivity {
+public class Cart extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_cart);
         BottomNavigationView bottomNavigation=findViewById(R.id.bottomNavigation);
-        Methods.addBottomNavigation(bottomNavigation,R.id.home,this);
-
+        Methods.addBottomNavigation(bottomNavigation,R.id.cart,this);
     }
 }

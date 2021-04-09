@@ -23,7 +23,14 @@ import android.widget.TextView;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ActivityCompat;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.BuildConfig;
+import com.google.firebase.auth.FirebaseAuth;
+import com.tlabs.something.Activities.Cart;
+import com.tlabs.something.Activities.Games;
+import com.tlabs.something.Activities.HomeActivity;
+import com.tlabs.something.Activities.MainActivity;
+import com.tlabs.something.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -314,7 +321,39 @@ public final class Methods {
                         Uri.parse("package:" + BuildConfig.APPLICATION_ID))))
                 .setNegativeButton("No", (dialog, which) -> dialog.cancel()).show();
     }
+    public static void addBottomNavigation(BottomNavigationView bottomNavigationView, Integer selectedItemId,
+                                    Activity activity){
+        bottomNavigationView.setSelectedItemId(selectedItemId);
+        bottomNavigationView.setOnNavigationItemSelectedListener(
+                item -> {
+                    int id=item.getItemId();
+                    if(id==selectedItemId) return true;
 
+                    if(id== R.id.home){
+                        activity.startActivity(new Intent(activity, HomeActivity.class));
+                        activity.finish();
+                        activity.overridePendingTransition(0,0);
+                    }
+                    else  if (id==R.id.games){
+                        activity.startActivity(new Intent(activity, Games.class));
+                        activity.finish();
+                        activity.overridePendingTransition(0,0);
+
+                    }
+                    else if (id==R.id.logout){
+                        FirebaseAuth.getInstance().signOut();
+                        activity.startActivity(new Intent(activity, MainActivity.class));
+                        activity.finish();
+
+                    }
+                    else if (id==R.id.cart){
+                        activity.startActivity(new Intent(activity, Cart.class));
+                        activity.finish();
+                        activity.overridePendingTransition(0,0);
+                    }
+                    return true;
+                });
+    }
 
 }
 
