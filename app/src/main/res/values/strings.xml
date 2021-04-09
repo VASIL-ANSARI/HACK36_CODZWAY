@@ -1,3 +1,48 @@
 <resources>
     <string name="app_name">Something</string>
+    <string name="message">Message</string>
+    <string name="logout">Logout</string>
+    <string name="map_key" translatable="false">
+        AIzaSyCQReHSQpIJPWdCJs3GQJKiy5DMnokjbOI
+    </string>
+    <string-array name="zones">
+        <item>Tilak</item>
+        <item>Patel</item>
+        <item>Tandon</item>
+        <item>Malviya </item>
+        <item>Tagore</item>
+        <item>Raman</item>
+        <item>SVBH</item>
+        <item>KNGH</item>
+        <item>SNGH</item>
+        <item>IH</item>
+        <item>EE Gate</item>
+        <item>GS Gate</item>
+        <item>ME Gate</item>
+        <item>EDC</item>
+        <item>MP Hall</item>
+    </string-array>
+    <string name="ask_registered_email">Enter your email address</string>
+    <string name="login">LOGIN</string>
+
+    <string name="forgot">Forgot Password ?</string>
+    <string name="checkbox_Remember">Remember Me</string>
+    <string name="new_user">New User ?<font color='#ffd438'>Sign Up</font></string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">Already have an account? <font color='#ffd438'>Login</font></string>
+
+    <string name="agreement">I\'ve read and agree to <font color='#FF3700B3'>Privacy Policy</font></string>
+
+    <string name="Nice_Message">Hold on we\'re trying to reach out to you</string>
+    <string name="email_verification">Email Verification</string>
+    <string name="resend">Not received the email yet ? <font color='#ed0e0e'>Resend</font></string>
+    <string name="not_examplename">Not EXAMPLE NAME ?</string>
+    <string name="register_again">Register again</string>
+    <string name="fetching">Fetching data…</string>
+    <string name="sign_up">SIGNUP</string>
+    <string name="terms">By clicking PROCEED, I agree to <font color='#FF3700B3'>Terms and Condition</font></string>
+
 </resources>

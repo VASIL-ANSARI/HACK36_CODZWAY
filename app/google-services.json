@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "794384040467",
+    "project_id": "hackway-103c6",
+    "storage_bucket": "hackway-103c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794384040467:android:801a1ec21c9d84ba3d75e6",
+        "android_client_info": {
+          "package_name": "com.tlabs.something"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794384040467-vk3r92fem5q8a6kimsl788ka3lo73ppp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2SEmqvBdvmSf444YqRSGzJO6EMpX7Uaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794384040467-vk3r92fem5q8a6kimsl788ka3lo73ppp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
