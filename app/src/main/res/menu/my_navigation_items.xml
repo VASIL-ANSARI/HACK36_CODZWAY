@@ -15,6 +15,11 @@
         android:title="Cart"
         />
     <item
+        android:id="@+id/payment"
+        android:icon="@drawable/ic_baseline_payment_24"
+        android:title="Payments"
+        />
+    <item
         android:id="@+id/logout"
         android:icon="@drawable/ic_baseline_lock_24"
         android:title="Logout" />

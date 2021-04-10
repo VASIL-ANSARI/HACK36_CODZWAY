@@ -4,30 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activities.Games">
+    tools:context=".Activities.Payments">
 
 
- <Button
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:text="Sudoku"
-     android:id="@+id/sudoku"/>
-    <Button
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="tic tac toe"
-        android:layout_below="@id/sudoku"
-        android:id="@+id/ttt"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Cows and Bulls"
-        android:layout_below="@id/ttt"
-        android:id="@+id/cows"/>
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavigation"
+        android:id="@+id/recyclerView"
 
-
-
-
+        android:padding="10dp"/>
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigation"
         android:layout_alignParentBottom="true"

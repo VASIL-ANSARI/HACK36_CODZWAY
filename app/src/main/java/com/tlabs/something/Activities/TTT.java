@@ -99,8 +99,11 @@ public class TTT extends AppCompatActivity implements View.OnClickListener {
             activePlayer=!activePlayer;
         }
 
-        if(playerTwoScoreCount < playerOneScoreCount){
-            playerStatus.setText("Player Two is Winning !");
+        if(playerTwoScoreCount > playerOneScoreCount){
+            playerStatus.setText("Player Two is winning !");
+        }
+        else if(playerTwoScoreCount < playerOneScoreCount){
+            playerStatus.setText("Player One is Winning !");
         }
         else {
             playerStatus.setText("");

@@ -11,12 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Something">
-        <activity android:name=".Activities.TTT"></activity>
+        <activity android:name=".Activities.BullsAndCows"></activity>
+        <activity android:name=".Activities.Items" />
+        <activity android:name=".Activities.Payments" />
+        <activity android:name=".Activities.TTT" />
         <activity android:name=".Activities.Cart" />
         <activity android:name=".Activities.Games" />
         <activity android:name=".Activities.MailVerification" />
         <activity android:name=".Activities.HomeActivity" />
-        <activity android:name=".Activities.MainActivity">
+        <activity android:name=".Activities.MainActivity" />
+        <activity android:name=".Activities.Sudoku" />
+        <activity
+            android:name=".Utils.Splash"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
