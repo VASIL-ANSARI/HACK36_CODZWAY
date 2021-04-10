@@ -14,7 +14,11 @@ https://docs.google.com/presentation/d/1oMKAmW6z5VbuulctkxeYSRbiP5QsVWDTQhbv67bY
 
 1.Android Studio
 
-2.Firebase FireStore and Storage
+2.Firebase Authentication
+
+3.FireStore
+
+4.Firebase Storage
 
 ## Contributors:
 
